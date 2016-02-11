@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8035D3631A77401E00F325EB /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8035D3621A77401E00F325EB /* GLUT.framework */; };
+		8035D3651A77402F00F325EB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8035D3641A77402F00F325EB /* OpenGL.framework */; };
+		8035D3671A77403600F325EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8035D3661A77403600F325EB /* Cocoa.framework */; };
+		80C01B981A7C08BC002FBDC4 /* DancingI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80C01B961A7C08BC002FBDC4 /* DancingI.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8035D3561A773F7000F325EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8035D3581A773F7000F325EB /* MP1: Dancing I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MP1: Dancing I"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8035D3621A77401E00F325EB /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		8035D3641A77402F00F325EB /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		8035D3661A77403600F325EB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		80C01B961A7C08BC002FBDC4 /* DancingI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DancingI.cpp; sourceTree = "<group>"; };
+		80E2E5C41A83E92800D5AD96 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8035D3551A773F7000F325EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8035D3631A77401E00F325EB /* GLUT.framework in Frameworks */,
+				8035D3651A77402F00F325EB /* OpenGL.framework in Frameworks */,
+				8035D3671A77403600F325EB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8035D34F1A773F7000F325EB = {
+			isa = PBXGroup;
+			children = (
+				8035D3661A77403600F325EB /* Cocoa.framework */,
+				8035D3641A77402F00F325EB /* OpenGL.framework */,
+				8035D3621A77401E00F325EB /* GLUT.framework */,
+				8035D35A1A773F7000F325EB /* MP1: Dancing I */,
+				8035D3591A773F7000F325EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8035D3591A773F7000F325EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8035D3581A773F7000F325EB /* MP1: Dancing I */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8035D35A1A773F7000F325EB /* MP1: Dancing I */ = {
+			isa = PBXGroup;
+			children = (
+				80C01B961A7C08BC002FBDC4 /* DancingI.cpp */,
+				80E2E5C41A83E92800D5AD96 /* README */,
+			);
+			path = "MP1: Dancing I";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8035D3571A773F7000F325EB /* MP1: Dancing I */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8035D35F1A773F7000F325EB /* Build configuration list for PBXNativeTarget "MP1: Dancing I" */;
+			buildPhases = (
+				8035D3541A773F7000F325EB /* Sources */,
+				8035D3551A773F7000F325EB /* Frameworks */,
+				8035D3561A773F7000F325EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MP1: Dancing I";
+			productName = "MP1: Dancing I";
+			productReference = 8035D3581A773F7000F325EB /* MP1: Dancing I */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8035D3501A773F7000F325EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Shaun Chung";
+				TargetAttributes = {
+					8035D3571A773F7000F325EB = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8035D3531A773F7000F325EB /* Build configuration list for PBXProject "MP1: Dancing I" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8035D34F1A773F7000F325EB;
+			productRefGroup = 8035D3591A773F7000F325EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8035D3571A773F7000F325EB /* MP1: Dancing I */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8035D3541A773F7000F325EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C01B981A7C08BC002FBDC4 /* DancingI.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8035D35D1A773F7000F325EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8035D35E1A773F7000F325EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8035D3601A773F7000F325EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8035D3611A773F7000F325EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8035D3531A773F7000F325EB /* Build configuration list for PBXProject "MP1: Dancing I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8035D35D1A773F7000F325EB /* Debug */,
+				8035D35E1A773F7000F325EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8035D35F1A773F7000F325EB /* Build configuration list for PBXNativeTarget "MP1: Dancing I" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8035D3601A773F7000F325EB /* Debug */,
+				8035D3611A773F7000F325EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8035D3501A773F7000F325EB /* Project object */;
+}

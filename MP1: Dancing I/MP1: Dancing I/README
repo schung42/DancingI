@@ -1,0 +1,32 @@
+Homework 1 Readme File
+
+Basic Information
+PLATFORM: OSX
+OS Version: OSX Yosemite 10.10.1
+Build Environment: Xcode
+Build Environment Version: Xcode 6.1.1
+Language: C++
+External Libraries Used (e.g., GLUT, GL, etc.): GLUT, GL, GLU, math.h, ctime, stdio, stdlib, iostream, fstream
+
+Build Instructions
+1. Unzip File
+2. Open Folder "MP1/DancingI"
+3. Open File "MP1/ Dancing I.xcodeproj"
+4. Run
+
+OR
+
+Simply run the Executable
+1. Unzip File
+2. Open Folder "MP1/DancingI"
+3. Open Folder "MP1/DancingI"
+4. Double Click Executable "MP1/DancingI"
+
+Controls
+'s' Toggles movement of Block I
+'x' Exits the program
+'w' Toggles Wireframe Mode
+
+Video Demo
+https://www.youtube.com/watch?v=4FcOI2YvvfI
+
